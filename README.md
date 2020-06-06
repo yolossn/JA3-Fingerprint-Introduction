@@ -97,8 +97,7 @@ Introduction to JA3 Fingerprint and how to impersonate it using golang.
 
   One can also use the [ja3transport.NewWithString](https://godoc.org/github.com/CUCyber/ja3transport#example-NewWithString) method to impersonate a particular client.
 
-  As mentioned earlier the `ja3transport` libarary also implements the `http.Transport` interface which can be used to create proxy server which impersonate some other client. This comes in handy if you have to impersonate traffic from another application or scripts from another programming language.
-
+  As mentioned earlier the `ja3transport` library also implements the `http.Transport` interface which can be used to create a proxy server which impersonates some other client. This comes in handy if you have to impersonate traffic from another application or scripts from another programming language.
 
 
 References:

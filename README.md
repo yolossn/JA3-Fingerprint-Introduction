@@ -38,7 +38,7 @@ Introduction to JA3 Fingerprint and how to impersonate it using golang.
   Don't confuse this with the `User-Agent` which is sent in the request headers. A client can send anything as it is under the control on the client. Even if one sends a different `User-Agent` the source of the request can be found using the JA3
   fingerprint.
 
-  Interesting fact! Have you ever tried to access google using tor browser and been blocked by a screen which says their systems have found unusual traffic, It it done by a mix of fingerprint filtering and by matching IP with list of public tor exit relays. Similar methods are used by govt and other important sites also.
+  Have you ever tried to access google using tor browser and been blocked by a screen which says their systems have found unusual traffic, It it done by a mix of fingerprint filtering and by matching IP with list of public tor exit relays. Similar methods are used by govt and other important sites also.
 
   > Tor Google
 

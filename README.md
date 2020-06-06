@@ -5,7 +5,7 @@ Introduction to JA3 Fingerprint and how to impersonate it using golang.
 > Disclaimer: This article is for educational purpose only.
 
 # What is JA3 ? 
-  JA3 is a fingerprinting mechanism used to uniquely identify clients based on their TLS clientHello packets. So whenever you access something over the internet your browser/client has to complete a TLS Handshake, this is a multistep process when the client and the server authenticate each other and negotiates security keys to be used for further data transmission.
+  JA3 is a fingerprinting mechanism used to uniquely identify clients based on their TLS clientHello packets. So whenever you access a website/service which uses https, your browser/client has to complete a TLS Handshake, this is a multistep process when the client and the server authenticate each other and negotiates security keys to be used for further data transmission.
 
   JA3 mechanism uses the client Hello packet to create a fingerprint which can be used to identify the operating system and the client from which the request was made. This comes in handy to identify various commonly used malwares and avoid traffic from them to protect your website. 
 

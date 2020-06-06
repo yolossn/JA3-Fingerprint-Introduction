@@ -57,7 +57,7 @@ Introduction to JA3 Fingerprint and how to impersonate it using golang.
 # Impersonating JA3.
   
   So basically if the fingerprint is created using the TLS handshake Client Hello packet then we can create a 
-  packet similar to a browser when programatically accessing a website. Yes it is possible with this golang library [JA3Transport](https://github.com/CUCyber/ja3transport). It implements `http.Client` and `http.Transport` interface, allowing us to craft the TLS handshake packets and impersonate someother client. To understand more about the library and ja3 computation logic check the official medium post by the creators of the library. [Link](https://medium.com/cu-cyber/impersonating-ja3-fingerprints-b9f555880e42)
+  packet similar to a browser when programmatically accessing a website. Yes it is possible with this golang library [JA3Transport](https://github.com/CUCyber/ja3transport). It implements `http.Client` and `http.Transport` interface, allowing us to craft the TLS handshake packets and impersonate someother client. To understand more about the library and ja3 computation logic check the official medium post by the creators of the library. [Link](https://medium.com/cu-cyber/impersonating-ja3-fingerprints-b9f555880e42)
 
   Let's see the ja3Transport client vs standard golang http client in action.
 

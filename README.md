@@ -65,7 +65,7 @@ Introduction to JA3 Fingerprint and how to impersonate it using golang.
  Using the go http client we hit the same ja3er.com and fetch the results.Check the code [here](https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/NativeHttpClient.go)
 
   <p align="center">
-  <img width="800" height="160" src="https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/images/NativeClient.png">
+  <img width="800" height="200" src="https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/images/NativeClient.png">
   </p>
  
 
@@ -88,7 +88,7 @@ Introduction to JA3 Fingerprint and how to impersonate it using golang.
   ```
 
   <p align="center">
-  <img width="800" height="200" src="https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/images/Ja3TransportClient.png">
+  <img width="800" height="260" src="https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/images/Ja3TransportClient.png">
   </p>
 
   From the response it is clear the fingerprint has majority of the matches with Mozilla and Safari.

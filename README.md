@@ -13,7 +13,7 @@ Introduction to JA3 Fingerprint and how to impersonate it in a programmatic mann
   click on search for ja3 hash to find your client and operating system. This is mine
 
   <p align="center">
-  <img width="360" height="360" src="https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/images/ja3er.png">
+  <img width="800" height="466" src="https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/images/ja3er.png">
   </p>
 
 
@@ -23,15 +23,15 @@ Introduction to JA3 Fingerprint and how to impersonate it in a programmatic mann
 
   This endpoint gives the ja3 and the ja3_hash (fingerprint).
   <p align="center">
-  <img width="360" height="360" src="https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/images/ja3curl1.png">
+  <img width="800" height="120" src="https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/images/ja3curl1.png">
   </p>
 
 
-  Get the ja3_hash from the previous response and search for it.
+  Get the `ja3_hash` from the previous response and search for it.
   > curl -X GET 'https://ja3er.com/search/3faa4ad39f690c4ef1c3160caa375465'
   
   <p align="center">
-  <img width="360" height="360" src="https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/images/ja3curl2.png">
+  <img width="800" height="160" src="https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/images/ja3curl2.png">
   </p>
 
 
@@ -43,13 +43,13 @@ Introduction to JA3 Fingerprint and how to impersonate it in a programmatic mann
   > Tor Google
 
   <p align="center">
-  <img width="360" height="360" src="https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/images/torgoogle.png">
+  <img width="600" height="440" src="https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/images/torgoogle.png">
   </p>
 
   > Tor JA3 Fingerprint
 
   <p align="center">
-  <img width="360" height="360" src="https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/images/torja3.png">
+  <img width="600" height="360" src="https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/images/torja3.png">
   </p>
 
   There are also other fingerprinting techniques other than ja3 and it is not public which fingerprinting method is used by Google. They might even have a proprietary technique 🤷‍♂️.
@@ -62,10 +62,10 @@ Introduction to JA3 Fingerprint and how to impersonate it in a programmatic mann
   Let's see the ja3Transport client vs standard golang http client in action.
 
  ## Normal Http Client
- Using the go http client we hit the same ja3er.com and fetch the results.Check the code [here]()
+ Using the go http client we hit the same ja3er.com and fetch the results.Check the code [here](https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/NativeHttpClient.go)
 
   <p align="center">
-  <img width="360" height="360" src="https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/images/NativeClient.png">
+  <img width="800" height="160" src="https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/images/NativeClient.png">
   </p>
  
 
@@ -88,12 +88,12 @@ Introduction to JA3 Fingerprint and how to impersonate it in a programmatic mann
   ```
 
   <p align="center">
-  <img width="360" height="360" src="https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/images/Ja3TransportClient.png">
+  <img width="800" height="200" src="https://github.com/yolossn/JA3-Fingerprint-Introduction/blob/master/images/Ja3TransportClient.png">
   </p>
 
   From the response it is clear the fingerprint has majority of the matches with Mozilla and Safari.
 
-  Hurray 🎉, we are able to impersonate another client successfully.
+  Hurray 🎉, we successfully impersonated some other client.
 
   One can also use the [ja3transport.NewWithString](https://godoc.org/github.com/CUCyber/ja3transport#example-NewWithString) method to impersonate a particular client.
 

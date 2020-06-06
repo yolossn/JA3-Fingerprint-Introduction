@@ -1,6 +1,6 @@
 #  JA3-Fingerprint-Introduction
 
-Introduction to JA3 Fingerprint and how to impersonate it in a programmatic manner using golang.
+Introduction to JA3 Fingerprint and how to impersonate it using golang.
 
 > Disclaimer: This article is for educational purpose only.
 
